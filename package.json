@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "pmx": "^0.5.5",
+    "pmx": "^1.6.4",
     "tty.js": "^0.2.15"
   },
   "config": {
@@ -35,8 +35,7 @@
       "script": "app.js",
       "name" : "pm2-webshell",
       "max_memory_restart": "100M",
-      "merge_logs": true,
-      "interpreter" : "node@4.8.4"
+      "merge_logs": true
     }
   ],
   "author": ["keymetrics", "JNK"],
